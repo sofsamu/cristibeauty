@@ -21,7 +21,7 @@ export default function Home() {
 
         {/* Texto sobre la imagen */}
         <div className="absolute inset-0 flex flex-col items-center justify-center text-center text-white bg-black/50 p-6">
-          <h1 className="text-5xl font-serif font-bold italic">Cris Beauty</h1>
+          <h1 className="text-5xl font-serif font-bold italic">Cristi Beauty</h1>
           <p className="text-lg mt-2">
             Tu salón de belleza especializado en uñas y cuidado personal.
           </p>

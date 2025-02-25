@@ -18,7 +18,7 @@ export default function Servicios() {
               layout="fill"
               className="object-cover w-full h-full transition duration-300 group-hover:opacity-70"
             />
-            <div className="absolute inset-0 flex items-center justify-center bg-black bg-opacity-30 text-white font-semibold text-lg group-hover:bg-opacity-50">
+            <div className="absolute inset-0 flex items-center justify-center bg-black bg-opacity-30 text-white font-semibold italic text-lg group-hover:bg-opacity-50">
               Pestañas y cejas
             </div>
           </div>
@@ -32,7 +32,7 @@ export default function Servicios() {
               layout="fill"
               className="object-cover w-full h-full transition duration-300 group-hover:opacity-70"
             />
-            <div className="absolute inset-0 flex items-center justify-center bg-black bg-opacity-30 text-white font-semibold text-lg group-hover:bg-opacity-50">
+            <div className="absolute inset-0 flex items-center italic justify-center bg-black bg-opacity-30 text-white font-semibold text-lg group-hover:bg-opacity-50">
               Uñas
             </div>
           </div>
@@ -46,7 +46,7 @@ export default function Servicios() {
               layout="fill"
               className="object-cover w-full h-full transition duration-300 group-hover:opacity-70"
             />
-            <div className="absolute inset-0 flex items-center justify-center bg-black bg-opacity-30 text-white font-semibold text-lg group-hover:bg-opacity-50">
+            <div className="absolute inset-0 flex items-center justify-center italic bg-black bg-opacity-30 text-white font-semibold text-lg group-hover:bg-opacity-50">
               Maquillaje
             </div>
           </div>
@@ -60,7 +60,7 @@ export default function Servicios() {
               layout="fill"
               className="object-cover w-full h-full transition duration-300 group-hover:opacity-70"
             />
-            <div className="absolute inset-0 flex items-center justify-center bg-black bg-opacity-30 text-white font-semibold text-lg group-hover:bg-opacity-50">
+            <div className="absolute inset-0 flex items-center justify-center italic bg-black bg-opacity-30 text-white font-semibold text-lg group-hover:bg-opacity-50">
               Pedicura
             </div>
           </div>

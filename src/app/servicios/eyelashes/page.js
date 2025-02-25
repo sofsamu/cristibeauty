@@ -59,19 +59,16 @@ export default function ServicioPestanasCejas() {
 
         <div className="p-6 bg-white shadow-lg text-center border border-gray-200">
           <h2 className="text-xl font-semibold text-gray-900">Depilacion cejas o labio superior</h2>
-          <p className="text-gray-600 mt-2">Laminado de cejas con tinte para un resultado más intenso y duradero.</p>
           <p className="text-pink-700 font-bold text-lg mt-3">3€</p>
         </div>
 
         <div className="p-6 bg-white shadow-lg text-center border border-gray-200">
           <h2 className="text-xl font-semibold text-gray-900">Depilacion cejas y labio superior</h2>
-          <p className="text-gray-600 mt-2">Laminado de cejas con tinte para un resultado más intenso y duradero.</p>
           <p className="text-pink-700 font-bold text-lg mt-3">5€</p>
         </div>
 
         <div className="p-6 bg-white shadow-lg text-center border border-gray-200">
           <h2 className="text-xl font-semibold text-gray-900">Depilacion de cejas y tinte</h2>
-          <p className="text-gray-600 mt-2">Laminado de cejas con tinte para un resultado más intenso y duradero.</p>
           <p className="text-pink-700 font-bold text-lg mt-3">10€</p>
         </div>
       </div>
