@@ -29,7 +29,7 @@ export default function RootLayout({ children }) {
     <html lang="es">
       <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
         <NavBar />
-        <main>{children}</main>
+        <main className="flex-grow">{children}</main>
         <ScrollToTop/>
         <Footer />
       </body>
