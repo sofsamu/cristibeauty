@@ -4,8 +4,8 @@ import Image from "next/image";
 
 export default function NavBar() {
   return (
-    <header className="p-3 bg-white">
-      <nav className="max-w-6xl mx-auto px-6 py-2 flex justify-between items-center">
+    <header className="top-0 left-0 w-full bg-white shadow-md">
+      <nav className="max-w-6xl mx-auto px-6 py-3 flex justify-between items-center">
         
         {/* Logo */}
         <Link href="/">
