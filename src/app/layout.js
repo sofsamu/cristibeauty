@@ -20,8 +20,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "Cris Beauty",
-  description: "Cris Beauty",
+  title: "Cristi Beauty",
+  description: "Cristi Beauty",
 };
 
 export default function RootLayout({ children }) {
