@@ -35,10 +35,10 @@ export default function Contacto() {
         <div className="mt-6">
           <h2 className="text-xl font-semibold text-gray-800">Redes sociales</h2>
           <div className="flex gap-4 mt-2">
-            <a href="https://www.instagram.com/cristiibeauty/" target="_blank" rel="noopener noreferrer" className="text-pink-600 text-2xl">
+            <a href="https://www.instagram.com/cristiibeauty/" target="_blank" rel="noopener noreferrer" className="text-pink-600 text-2xl hover:scale-125 transition">
               <FaInstagram />
             </a>
-            <a href="https://wa.me/34683287895" target="_blank" rel="noopener noreferrer" className="text-green-600 text-2xl">
+            <a href="https://wa.me/34683287895" target="_blank" rel="noopener noreferrer" className="text-green-600 text-2xl hover:scale-125 transition">
               <FaWhatsapp />
             </a>
           </div>

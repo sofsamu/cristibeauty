@@ -45,15 +45,6 @@ export default function ServicioUnas() {
           <p className="text-pink-700 font-bold text-lg mt-3">5€</p>
         </div>
       </div>
-
-      {/* Botón de regreso */}
-      <div className="mt-8">
-        <Link href="/servicios">
-          <span className="inline-block px-6 py-2 border-2 border-pink-700 text-pink-700 font-semibold hover:bg-pink-700 hover:text-white transition duration-300">
-            Volver a Servicios
-          </span>
-        </Link>
-      </div>
     </div>
   );
 }

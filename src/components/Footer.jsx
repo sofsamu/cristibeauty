@@ -19,11 +19,11 @@ export default function Footer() {
         </div>
 
         {/* Redes sociales */}
-        <div>
+        <div className="mt-4 md:mt-0">
           <h3 className="text-xl font-semibold">Síguenos</h3>
           <div className="flex space-x-4 mt-2">
             <a href="https://www.instagram.com/cristiibeauty/" className="text-2xl text-pink-500 hover:text-pink-700 hover:scale-125 transition" target="_blank"><FaInstagram /></a>
-            <a href="https://wa.me/34683287895" className="text-2xl text-pink-500 hover:text-pink-700 hover:scale-125 transition"><FaWhatsapp /></a>
+            <a href="https://wa.me/34683287895" className="text-2xl text-pink-500 hover:text-pink-700 hover:scale-125 transition" target="_blank"><FaWhatsapp /></a>
           </div>
         </div>
       </div>

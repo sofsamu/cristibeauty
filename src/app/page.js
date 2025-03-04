@@ -1,7 +1,7 @@
 import Carousel from "@/components/Carousel";
 import ContactIndex from "@/components/ContactIndex";
 import Opinions from "@/components/Opinions";
-import ServicesIndex from "@/components/ServicesIndex";
+import ServicesIndex from "@/components/ServicesComp/ServicesIndex";
 import Image from "next/image";
 
 export default function Home() {
