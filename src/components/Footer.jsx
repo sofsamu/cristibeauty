@@ -3,8 +3,12 @@ import { FaInstagram, FaWhatsapp } from "react-icons/fa";
 
 export default function Footer() {
   return (
-    <div className="main-container">
-      <footer className="py-6 bg-white shadow-md">
+    <div className="min-h-screen flex flex-col">
+      <main className="flex-grow">
+        {/* Aquí va el contenido principal de la página */}
+      </main>
+
+      <footer className="py-6 bg-white shadow-md mt-auto">
         <div className="max-w-6xl mx-auto px-6 flex flex-col md:flex-row justify-between items-center text-center md:text-left">
           {/* Información */}
           <div className="mb-4 md:mb-0">
