@@ -27,10 +27,10 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="es">
-      <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
+      <body className={`${geistSans.variable} ${geistMono.variable} antialiased min-h-screen flex flex-col`}>
         <NavBar />
         <main className="flex-grow">{children}</main>
-        <ScrollToTop/>
+        <ScrollToTop />
         <Footer />
       </body>
     </html>
