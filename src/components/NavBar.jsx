@@ -22,22 +22,22 @@ export default function NavBar() {
         <ul className="flex space-x-8 text-lg">
           <li>
             <Link href="/" className="text-black hover:text-pink-700 transition duration-300">
-              INICIO
+              Inicio
             </Link>
           </li>
           <li>
             <Link href="/servicios" className="text-black hover:text-pink-700 transition duration-300">
-              SERVICIOS
+              Servicios
             </Link>
           </li>
           <li>
             <Link href="/citas" className="text-black hover:text-pink-700 transition duration-300">
-              CITAS
+              Citas
             </Link>
           </li>
           <li>
             <Link href="/contacto" className="text-black hover:text-pink-700 transition duration-300">
-              CONTACTO
+              Contacto
             </Link>
           </li>
         </ul>
