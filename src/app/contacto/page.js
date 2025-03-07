@@ -1,4 +1,5 @@
 "use client";
+import Link from "next/link";
 import { FaInstagram, FaWhatsapp } from "react-icons/fa";
 
 export default function Contacto() {
@@ -7,7 +8,7 @@ export default function Contacto() {
       {/* Información de contacto */}
       <div className="w-full md:w-1/2 text-left">
         <h1 className="text-3xl font-bold font-serif text-pink-700">Contáctanos</h1>
-        <p className="mt-4 text-gray-600">Aún no puedes reservar tu cita directamente desde aquí, ¡pero estamos trabajando para que sea muy pronto! Mientras tanto, escríbenos por WhatsApp o Instagram para agendar tu cita. ¡Te respondemos rapidísimo!  ¡Gracias por tu confianza!</p>
+        <p className="mt-4 text-gray-600">Para tu comodidad, reserva tu cita directamente en nuestra sección de <Link href="/citas" className="text-pink-700 hover:text-pink-900">reservas</Link>. Te recomendamos seguirnos en Instagram y WhatsApp para estar al tanto de nuevas disponibilidades y posibles ajustes en tu cita.</p>
 
         {/* Dirección */}
         <div className="mt-6">

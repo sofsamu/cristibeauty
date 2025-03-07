@@ -21,18 +21,23 @@ export default function NavBar() {
         {/* Menú */}
         <ul className="flex space-x-8 text-lg">
           <li>
-            <Link href="/" className="text-black hover:text-pink-500 transition duration-300">
-              Inicio
+            <Link href="/" className="text-black hover:text-pink-700 transition duration-300">
+              INICIO
             </Link>
           </li>
           <li>
-            <Link href="/servicios" className="text-black hover:text-pink-500 transition duration-300">
-              Servicios
+            <Link href="/servicios" className="text-black hover:text-pink-700 transition duration-300">
+              SERVICIOS
             </Link>
           </li>
           <li>
-            <Link href="/contacto" className="text-black hover:text-pink-500 transition duration-300">
-              Contacto
+            <Link href="/citas" className="text-black hover:text-pink-700 transition duration-300">
+              CITAS
+            </Link>
+          </li>
+          <li>
+            <Link href="/contacto" className="text-black hover:text-pink-700 transition duration-300">
+              CONTACTO
             </Link>
           </li>
         </ul>
