@@ -49,7 +49,7 @@ export default function ReservarCita() {
 
     // Enviar correo con EmailJS
     const templateParams = {
-      to_email: "tucorreo@estetica.com", // 📌 Cambia por el email de la estética
+      to_email: "samu17gr@gmail.com",
       cliente_nombre: nombre,
       cliente_email: email,
       cliente_telefono: telefono,
@@ -59,7 +59,7 @@ export default function ReservarCita() {
     };
 
     try {
-      await emailjs.send("service_xxxxxx", "template_xxxxxx", templateParams, "tu_api_key");
+      await emailjs.send("service_w6bvi7o", "template_6zi9ull", templateParams, "rtchOVG111L7B5vHU");
 
       setConfirmacion(true);
       setTimeout(() => setConfirmacion(false), 3000);
