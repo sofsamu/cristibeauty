@@ -8,7 +8,7 @@ export default function Services() {
       <h1 className="text-2xl font-bold font-serif text-pink-700">Nuestros Servicios</h1>
       <p className="mt-1 text-gray-600 text-sm">Explora nuestros servicios de belleza.</p>
 
-      {/* Grid de servicios con imágenes más grandes */}
+      {/* Grid de servicios*/}
       <section className="grid grid-cols-2 gap-3 mt-4 px-2 sm:px-6 w-full max-w-sm mx-auto">
         
         <Link href="/servicios/eyelashes" className="relative group block">
