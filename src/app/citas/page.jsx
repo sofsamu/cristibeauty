@@ -84,7 +84,7 @@ export default function ReservarCita() {
       {/* Mensaje de confirmación */}
       {confirmacion && (
         <div className="mt-4 p-3 bg-green-100 text-green-700 text-center rounded-md">
-          ✅ ¡Tu cita ha sido agendada con éxito!
+          ✅ ¡Tu cita ha sido agregada con éxito!
         </div>
       )}
 

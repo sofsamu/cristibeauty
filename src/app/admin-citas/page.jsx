@@ -12,7 +12,7 @@ export default function AdminCitas() {
     if (data) setCitas(JSON.parse(data));
   }, []);
 
-  // Guardar en localStorage cada vez que cambien las citas
+  // Guardar cada vez que cambien las citas
   useEffect(() => {
     localStorage.setItem("citas", JSON.stringify(citas));
   }, [citas]);
@@ -26,15 +26,15 @@ export default function AdminCitas() {
   // Activar modo edición
   const editarCita = (index) => {
     setEditando(index);
-    setCitaEditada(citas[index]); // Cargar datos actuales en el formulario de edición
+    setCitaEditada(citas[index]); 
   };
 
   // Guardar cambios en la cita editada
   const guardarEdicion = () => {
     const nuevasCitas = [...citas];
-    nuevasCitas[editando] = citaEditada; // Reemplazar los datos con los nuevos
+    nuevasCitas[editando] = citaEditada;
     setCitas(nuevasCitas);
-    setEditando(null); // Salir del modo edición
+    setEditando(null); 
   };
 
   return (
@@ -48,7 +48,7 @@ export default function AdminCitas() {
           citas.map((cita, index) => (
             <li key={index} className="bg-gray-100 p-4 shadow-md">
               {editando === index ? (
-                // 🔹 Formulario de edición
+                //Formulario de edición
                 <div className="space-y-2">
                   <input 
                     type="text" 
@@ -82,7 +82,7 @@ export default function AdminCitas() {
                   </button>
                 </div>
               ) : (
-                // 🔹 Vista normal de la cita
+                // Vista normal de la cita
                 <div>
                   <p><strong>{cita.nombre}</strong></p>
                   <p>{cita.servicio} - {cita.fecha}</p>
